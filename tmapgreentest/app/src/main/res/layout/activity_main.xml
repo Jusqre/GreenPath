@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/tmap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonReco"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/ic_baseline_place_24"
+            android:text="@string/Reco" />
+
+        <Button
+            android:id="@+id/buttonCalcDistance"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/ic_baseline_near_me_24"
+            android:text="@string/matr" />
+
+        <Button
+            android:id="@+id/buttonsh"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/ic_baseline_group_24"
+            android:text="산책로 게시판" />
+
+    </LinearLayout>
+
+
+
+</android.widget.LinearLayout>
+
+
+
+
